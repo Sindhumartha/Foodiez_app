@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify your Mobile"
+        android:textSize="34sp"
+        android:textColor="#000"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your code here"
+        android:layout_below="@id/verify"
+        android:layout_marginTop="20dp"
+     android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="#514747"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enter"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:text="Verify now"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

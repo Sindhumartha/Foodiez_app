@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/forg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your email"
+        android:layout_below="@id/forg"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="#514747"
+        />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/please"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email"
+        android:textColorHint="#655858"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:text="Verify now"
+        android:textSize="22sp"/>
+
+
+</RelativeLayout>

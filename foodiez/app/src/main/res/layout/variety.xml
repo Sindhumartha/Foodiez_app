@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bag"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_bag"
+        android:layout_marginTop="230dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/varity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Variety of Food"
+        android:layout_below="@id/bag"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textSize="32sp"
+        android:textStyle="italic|bold"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/varity"
+        android:text="set your location to start exploring \n            restaurents around you"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/set"
+        android:textColor="#000000"
+        android:text="Login"
+        android:textSize="18sp"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"/>
+
+
+
+</RelativeLayout>
